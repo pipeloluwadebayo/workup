@@ -139,7 +139,29 @@ ul {
 	padding: 1.5rem 5rem;
 	margin-top: 10rem;
 }
-.hero-img {
+.hero-img-box {
+	position: relative;
+}
+.hero-img-box a {
+	position: absolute;
+	bottom: 8rem;
+	left: 1rem;
+}
+.hero-img-box div i {
+	font-size: 2.5rem;
+}
+.hero-img-box div p {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-top: 0.5rem;
+}
+.hero-img-box a:link,
+.hero-img-box a:visited {
+	text-decoration: none;
+	color: var(--text-light);
+	cursor: pointer;
+}
+.hero-img-box .hero-img {
 	max-width: 100%;
 	border-radius: 7px;
 }
