@@ -27,6 +27,7 @@ body {
 .hero {
 	background-color: var(--bgc-dark);
 	color: var(--text-light);
+	font-family: 'Matter SQ';
 }
 .btn {
 	font-size: 1.6rem;
@@ -35,6 +36,7 @@ body {
 	color: rgba(255, 255, 255, 0.956);
 	border-radius: 7px;
 	cursor: pointer;
+	font-family: inherit;
 }
 .nav-btn {
 	padding: 1.2rem 4rem;
@@ -116,6 +118,7 @@ ul {
 	display: grid;
 	gap: 2rem;
 	grid-template-columns: repeat(2, 1fr);
+	font-family: 'Matter SQ';
 }
 /* .container {
 	margin-left: var(--space-y);
