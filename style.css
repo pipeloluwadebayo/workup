@@ -366,6 +366,9 @@ form label {
 	border-bottom: 1px solid #624000;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
+.subscribe-btn {
+	padding: 1.5rem 3rem;
+}
 .contact input {
 	width: 100%;
 	padding: 1.2rem;
@@ -376,7 +379,7 @@ form label {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
 .subscribe input {
-	width: 80%;
+	width: 100%;
 	padding: 1.2rem;
 	font-size: 1.8rem;
 	font-family: inherit;
@@ -399,6 +402,7 @@ form input::placeholder {
 }
 .subscribe-img img {
 	max-width: 100%;
+	border-radius: 7px;
 }
 .newsletter {
 	display: flex;
@@ -407,7 +411,7 @@ form input::placeholder {
 }
 .newsletter h1 {
 	font-size: 4rem;
-	/* margin-bottom: 3rem; */
+	margin-bottom: 1.5rem;
 }
 .newsletter p {
 	font-size: 1.8rem;
